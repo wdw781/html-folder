@@ -1,1 +1,1 @@
-##this project is for learning some basics about Html and CSS
+this project is for learning some basics about Html and CSS
