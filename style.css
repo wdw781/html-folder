@@ -1,21 +1,15 @@
 body {
     font-family: "Playfair Display", serif;
-    margin: 20;
-
+    margin: 0px;
 }
 header {
-    background-image: url('a.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 1000px;
     height: 100px;
     font-size: 50px;
     background-color: #000000;
     padding: 10px;
-    text-align: center;
-    margin: auto;
     border-radius: 30px;
+    margin: 20 auto;
 }
 
 nav ul {
@@ -43,13 +37,9 @@ nav a:hover {
 }
 
 .Main {
-    background-image: url('a.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 10px;
-    background-color: rgb(0, 106, 255);
-    margin: 500px auto;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    margin: 430px auto;
     text-align: center;
     color: rgb(255, 255, 255);
     width: 1000px;
@@ -64,4 +54,25 @@ nav a:hover {
 
 .Main p {
     font-size: 20px;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer li {
+    margin-right: 20px;
 }
