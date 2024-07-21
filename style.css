@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main p {
+    font-size: 100px;
+}
+
+.main button {
+    font-size: 100px;
+}   
