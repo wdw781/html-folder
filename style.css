@@ -1,12 +1,24 @@
-.main {
+.Header {
+    display: flex;
+    justify-content: center;
+}
+.Header h1 {
+    font-size: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+.task ul li label {
+    text-decoration: none;
+}
+
+.buttons {
     display: flex;
     justify-content: center;
 }
 
-.main p {
-    font-size: 100px;
+.task {
+    text-align: center;
 }
-
-.main button {
-    font-size: 100px;
-}   

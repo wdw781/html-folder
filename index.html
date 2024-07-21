@@ -1,17 +1,27 @@
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shitpost</title>
+    <title>TODO list</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <main>
-            <p id="paragraph">this shit will gone</p>
-            <button id="btn">pressME</button>
-            <button id="btn2">reStore</button>
-        </main>
+    <div class="Header">
+        <Header>
+            <h1>TODO list</h1>
+        </Header>
+    </div>
+    <div class="buttons">
+        <button id="add_task">Add Tasks</button>
+        <button id="remove_task">Remove Tasks</button>
+    </div>
+    <div class="task">
+        <ul id="task-list">
+            <li>
+                <input type="checkbox" id="task1">
+                <label for="task1">Task1</label>
+            </li>
+        </ul>
     </div>
     <script src="index.js"></script>
 </body>
