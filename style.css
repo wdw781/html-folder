@@ -1,4 +1,9 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 .Header {
+    margin: 100px;
     display: flex;
     justify-content: center;
 }
@@ -8,6 +13,11 @@
 
 li {
     list-style: none;
+}
+.task {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .task ul li label {
@@ -21,4 +31,14 @@ li {
 
 .task {
     text-align: center;
+}
+
+.buttons button {
+    border: none;
+    font-size: 40px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
 }

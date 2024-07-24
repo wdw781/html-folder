@@ -4,6 +4,28 @@ var task_list = document.getElementById('task-list')
 var task_input, task_label, new_task
 
 
+task_list.addEventListener('click', function(event) {
+  if (event.target.type === 'checkbox') {
+    removeTaskWhenChecked(event);
+  }
+});
+
+function removeTaskWhenChecked(event) {
+  console.log('removeTaskWhenChecked called')
+  if (event.target.checked) {
+    var task_to_remove = event.target.parentNode
+    task_list.removeChild(task_to_remove)
+    
+    var tasks = JSON.parse(localStorage.getItem('tasks') || '[]')
+    var index = tasks.indexOf(task_to_remove.id)
+    if (index!== -1) {
+      tasks.splice(index, 1)
+      localStorage.setItem('tasks', JSON.stringify(tasks))
+    }
+  }
+}
+
+
 
 a_btn.onclick = function() {
   var task_name = prompt("Enter new task name :")
@@ -47,6 +69,7 @@ tasks.forEach(function(task_name) {
   var task_input = document.createElement('input')
   var task_label = document.createElement('label')
   task_input.type = 'checkbox'
+  task_input.onclick = removeTaskWhenChecked
   task_label.innerHTML = task_name
   new_task.id = task_name
   new_task.appendChild(task_input)
