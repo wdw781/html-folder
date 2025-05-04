@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Heading {
+    text-align: center;
+    font-size: 100px;
+}
+
+.menu {
+    font-size: 40px;
+    background-color: gray;
+    width: 2515px;
+    height: 80px;
+    padding: 0px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu a {
+    margin-top: 0px;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+    height: 70px;
+}
+
+#Home {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    background-color: black;
+}
+
+#Github {
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#About {
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#Github:hover {
+    color: black;
+    background-color: white;
+}
+
+#About:hover {
+    color: black;
+    background-color: white;
+}
