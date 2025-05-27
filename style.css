@@ -2,6 +2,7 @@ body {
     margin: 0px;
     background-color: black;
     color: white;
+    font-family: "Cal Sans", sans-serif;
 }
 
 .cal-sans-regular {
@@ -11,6 +12,7 @@ body {
 }
 
 #Heading {
+    margin-top: 400px;
     text-align: center;
     font-size: 100px;
     color: white;
@@ -18,13 +20,17 @@ body {
 
 .menu {
     font-size: 40px;
-    background-color: white;
+    background-color: black;
     width: 2515px;
     height: 80px;
     padding: 0px;
     font-family: "Cal Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
 }
 
 .menu a {
@@ -42,11 +48,11 @@ body {
     padding-right: 10px;
     padding-bottom: 0px;
     margin-right: 0px;
-    background-color: black;
+    transition: color 0.3s ease, background-color 0.3 ease;
 }
 
 #Github {
-    color: black;
+    color: white;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -56,7 +62,7 @@ body {
 }
 
 #About {
-    color: black;
+    color: white;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -66,12 +72,17 @@ body {
 
 #Github:hover {
     color: black;
-    background-color: gray;
+    background-color: white;
 }
 
 #About:hover {
     color: black;
-    background-color: gray;
+    background-color: white;
+}
+
+#Home:hover {
+    color: black;
+    background-color: white;
 }
 
 ul {
@@ -79,12 +90,27 @@ ul {
 }
 
 .desc {
+    margin-top: 610px;
+    margin-bottom: 100px;
     color: black;
     text-align: center;
     background-color: white;
     font-size: 30px;
+    border: solid;
+    border-radius: 5em;
+    width: 2000px;
+}
+
+.desc li {
+    margin-bottom: 20px;
 }
 
 #desc-head {
     font-size: 50px;
+}
+
+.center_desc {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
